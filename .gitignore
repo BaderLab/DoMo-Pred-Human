@@ -1,0 +1,51 @@
+#Don't include anything from the Db directories - contain all the data and a lot of the files are too big
+*/Db/*
+
+#added npy and npz files because they are too large to check in normally
+*.npy
+*.npz
+
+#add zipped and gz files
+*.gz
+*.zip
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
